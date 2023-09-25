@@ -1,0 +1,209 @@
+body {
+  background-color: #bfd9ec !important;
+}
+
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4rem;
+  width: 100%;
+  font-size: larger !important;
+  font-weight: 800;
+}
+.logo {
+  height: 4rem;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(214, 236, 236);
+  border-radius: 70%;
+}
+.hero-card {
+  background-color: rgb(52, 53, 71) !important;
+  color: white;
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  /* padding: 1rem; */
+  border-radius: 1rem;
+  position: relative;
+  height: 8rem;
+  /* margin-bottom: 1rem; */
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.line{
+  height: 2px;
+  background-color: rgb(12, 12, 12);
+  width: 2rem;
+  position: absolute;
+  /* margin-top: 335rem; */
+  top: 8rem !important;
+  left: 57.5rem;
+}
+
+
+
+
+.cloud {
+  width: 10rem;
+  /* White cloud color */
+  border-radius: 100px; /* Half of the height to make it a circle */
+  position: relative;
+ color: whitesmoke;
+}
+
+.text {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* .right{
+  width: 20%;
+} */
+.home-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around !important;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  /* margin-top: 3rem; */
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 3rem
+}
+.btn-home{
+  background-color: blueviolet;
+  color: white;
+
+}
+.home-btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-home1{
+  background-color: orange;
+  color: white;
+
+}
+.home-services{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+.main-sev{
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.main-sev img{
+  object-fit: cover;
+  width: 80%;
+}
+
+.home-conva-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rwm;
+}
+.home-conva-left{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 2rem;
+}
+.home-conva-right{
+  width: 30%;
+}
+.home-conva-right img{
+  width: 30rem !important;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+flex-direction: column;
+  height: 90vh;
+  gap: 2rem;
+}
+
+.login-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  width: 50%;
+  gap: 1rem;
+}
+
+/* Navbar.css */
+
+
+
+.nav-item {
+
+  
+}
+
+.nav-item a {
+  color: rgb(17, 17, 17);
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffdfd;
+  min-width: 160px;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.nav-item:hover .dropdown-content {
+  display: block;
+}
+.service-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.service-list{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid yellowgreen;
+  border-radius: 1rem;
+  padding: 1rem;
+}
